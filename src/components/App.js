@@ -87,17 +87,17 @@ function App(){
     setMarkdown(e.target.value)
   }
   
-  // const changeLoadingVar = () => {
-  //   setLoading(false)
-  // }
+  const changeLoadingVar = () => {
+    setLoading(false)
+  }
 
-  // useEffect(() => {
-  //   setTimeout(changeLoadingVar,3000)
-  // },[]);
+  useEffect(() => {
+    setTimeout(changeLoadingVar,3000)
+  },[]);
 
-    // if(loading){
-    //   return (<div><h1>Loading...</h1></div>)
-    // }
+    if(loading){
+      return (<div><h1>Loading...</h1></div>)
+    }
  
     return(
       <div className="app">
